@@ -20,7 +20,7 @@ const Page = () => {
                     </div>
                 </div>
                 <div className="w-[400px] h-[400px] left-[1563px] top-[107px] absolute bg-sky-700 rounded-full" />
-                <img className="w-[800px] h-[800px] left-[29px] top-[408px] absolute" src="https://via.placeholder.com/800x800" />
+                <img className="w-[800px] h-[800px] left-[29px] top-[408px] absolute" src="/hero.png" />
                 <div className="w-[796.89px] h-[501.50px] left-[41px] top-[775px] absolute">
                     <div className="w-[748.67px] h-[146.95px] left-[73.45px] top-0 absolute origin-top-left rotate-[29.99deg] rounded-full border-2 border-black" />
                     <div className="w-[748.67px] h-[146.95px] left-[39px] top-[260.75px] absolute origin-top-left rotate-[-17.71deg] rounded-full border-2 border-black" />
