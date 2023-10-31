@@ -86,18 +86,24 @@ const ContactPage = () => {
                     <div className="flex-col justify-center items-start gap-5 flex">
                         <div className="text-white text-[22px] font-bold font-'Poppins'">What type of website do you need?</div>
                         <div className="w-[920px] px-5 justify-between items-center inline-flex">
+
+                            {/* ... Web Design ... */}
                             <div className="justify-center items-center gap-3 flex">
                                 <input type="radio" id="webDesign" name="websiteType" value="Web Design" />
                                 <label htmlFor="webDesign" className="text-white text-[25px] font-medium font-'Poppins'">Web Design</label>
                             </div>
+                            {/* ... Web Development ... */}
+
                             <div className="justify-center items-center gap-3 flex">
-                                <input type="radio" id="Web Development" name="websiteType" value="Web Development" />
-                                <label htmlFor="webDesign" className="text-white text-[25px] font-medium font-'Poppins'">Web Development</label>
+                                <input type="radio" id="webDevelopment" name="websiteType" value="webDevelopment" />
+                                <label htmlFor="webDevelopment" className="text-white text-[25px] font-medium font-'Poppins'">Web Development</label>
                             </div>
-                            <label className="justify-center items-center gap-3 flex">
+                            {/* ... Other ... */}
+
+                            <div className="justify-center items-center gap-3 flex">
                                 <input type="radio" id="Other" name="websiteType" value="Other" />
                                 <label htmlFor="Other" className="text-white text-[25px] font-medium font-'Poppins'">Other</label>
-                            </label>
+                            </div>
                         </div>
                     </div>
                     <div className="w-[930px] h-[111px] p-2.5 border-b-2 border-white flex-col justify-center items-start gap-2.5 flex">
