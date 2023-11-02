@@ -2,7 +2,6 @@ const ContactPage = () => {
     return (
         <div className="contact relative bg-zinc-900">
             {/* ...  Cards  ... */}
-
             <div className="text-[200px] font-black font-'Poppins'">CONTACT ME</div>
             <div className="p-2.5 bg-neutral-800 rounded-[10px] justify-start items-start gap-2.5 inline-flex">
                 <div className="w-[533px] relative bg-sky-700 rounded-[10px] p-3">
@@ -111,7 +110,7 @@ const ContactPage = () => {
                     <div className="w-[930px] h-[111px] p-2.5 border-b-2 border-white flex-col justify-center items-start gap-2.5 flex">
                         <div className="w-[429px] h-7 text-white text-[17px] font-medium font-'Poppins'">Message</div>
                         <textarea
-                            className="text-white text-[26px] font-medium font-'Poppins' w-full border-none bg-transparent outline-none"
+                            className="text-white text-[26px] font-medium font-'Poppins' w-full border-none bg-transparent outline-none resize-none"
                             placeholder="Write your message ..."
                         ></textarea>
                     </div>
