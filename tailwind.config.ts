@@ -29,17 +29,24 @@ module.exports = {
         poppins: ["Poppins", "sans-serif"],
         inter: ["Inter", "sans-serif"],
       },
+      border: {
+        1: "1px solid",
+        2: "2px solid",
+        3: "3px solid",
+        radius: "10px",
+      },
       colors: {
         primary: "#2163AD",
-        secondary: "#dbdbdb",
+        secondary: "#1A4F8A",
         black: {
           DEFAULT: "#000",
-          100: "#0D1117",
+          100: "#191919",
           200: "#161B22",
           300: "#1F2428",
           400: "#242C38",
         },
         grey: {
+          DEFAULT: "#B3BBC3",
           100: "#969BA5",
           200: "#55616D",
         },
