@@ -8,7 +8,7 @@ interface SkillCategoryProps {
 
 const SkillCategory: React.FC<SkillCategoryProps> = ({ title, description, icon }) => {
     return (
-        <div className="w-72 h-96 p-5 bg-zinc-900 rounded-md border-2 border-neutral-800 flex flex-col justify-end items-start space-y-5 hover:border-primary">
+        <div className="w-72 h-96 p-5 bg-black-100 rounded-md border-2 border-neutral-800 flex flex-col justify-end items-start space-y-5 hover:border-secondary">
             <img src={icon} width={40} height={40} alt={title} />
             <div className="text-center text-gray-400 text-3xl font-normal font-LilitaOne">{title}</div>
             <div className="text-gray-400 text-xl font-normal font-LilitaOne">{description}</div>

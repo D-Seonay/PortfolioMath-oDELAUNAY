@@ -106,7 +106,7 @@ const Footer = () => {
                         className="hover:text-blue-500" // Classe de survol Tailwind
                     >
                         <Image
-                            src="/logo-mail.svg"
+                            src="./logo-mail.svg"
                             alt="Logo-mail"
                             width={40}
                             height={40}
