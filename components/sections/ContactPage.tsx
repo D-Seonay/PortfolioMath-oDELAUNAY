@@ -1,9 +1,11 @@
 const ContactPage = () => {
     return (
         <div className="contact relative bg-zinc-900">
+            {/* ...  Cards  ... */}
+
             <div className="text-[200px] font-black font-'Poppins'">CONTACT ME</div>
             <div className="p-2.5 bg-neutral-800 rounded-[10px] justify-start items-start gap-2.5 inline-flex">
-                <div className="w-[533px] relative bg-sky-700 rounded-[10px]">
+                <div className="w-[533px] relative bg-sky-700 rounded-[10px] p-3">
                     <div className="text-white text-[35px] font-medium font-'Poppins'">Contact Information</div>
                     <div className="flex-col justify-center items-start gap-[73px] inline-flex">
                         <div className="justify-center items-center gap-[45px] inline-flex">
