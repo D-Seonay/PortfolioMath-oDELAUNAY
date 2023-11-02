@@ -19,8 +19,8 @@ const Page = () => {
                 alt="hero"
             />
             {/* Autres éléments... */}
-            {/*<ContactPage /> */}
             <SkillsPage />
+            <ContactPage />
         </div>
 
     );

@@ -64,13 +64,13 @@ const Footer = () => {
                 </div>
             </div>
             <div className="flex justify-center items-center">
-
-                {/* Logo linkedin */}
+                {/* Logo LinkedIn */}
                 <div className="mx-20">
                     <Link
                         href="https://www.linkedin.com/in/math%C3%A9o-delaunay/"
                         target="_blank"
-                        title="Go to LinkedIn profile">
+                        className="hover:text-blue-500" // Classe de survol Tailwind
+                    >
                         <Image  
                             src="/logo-linkedin.svg"
                             alt="Logo-linkedin"
@@ -81,12 +81,13 @@ const Footer = () => {
                     </Link>
                 </div>
 
-                {/* Logo github */}
+                {/* Logo GitHub */}
                 <div className="mx-20">
                     <Link
                         href="https://github.com/D-Seonay"
                         target="_blank"
-                        title="Go to GitHub profile">
+                        className="hover:text-blue-500" // Classe de survol Tailwind
+                    >
                         <Image
                             src="/logo-github.svg"
                             alt="Logo-github"
@@ -97,9 +98,13 @@ const Footer = () => {
                     </Link>
                 </div>
 
-                {/* Logo mail */}
+                {/* Logo Email */}
                 <div className="mx-20">
-                    <a href="mailto:matheodelaunay04@gmail.com" target="_blank" title="Send an email">
+                    <a
+                        href="mailto:matheodelaunay04@gmail.com"
+                        target="_blank"
+                        className="hover:text-blue-500" // Classe de survol Tailwind
+                    >
                         <Image
                             src="/logo-mail.svg"
                             alt="Logo-mail"
@@ -109,7 +114,6 @@ const Footer = () => {
                         <span className="sr-only">Email</span>
                     </a>
                 </div>
-
             </div>
         </div>
     );
