@@ -19,12 +19,12 @@ const SkillCategory: React.FC<SkillCategoryProps> = ({ title, description, icon 
 const SkillsPage: React.FC = () => {
     return (
         <div className="w-full h-auto p-5 relative">
-            <h1 className="absolute left-0 top-0 text-6xl font-black font-Poppins">SKILLS</h1>
+            <h1 className="absolute left-0 top-0 text-12xl font-black font-Poppins">SKILLS</h1>
             <div className="flex justify-between space-x-5">
                 <SkillCategory title="FRONT END" description="Designing intuitive interfaces" icon="../FrontEnd.svg"/>
-                <SkillCategory title="BACK END" description="Building robust server-side applications" icon='../FrontEnd.svg' />
-                <SkillCategory title="DEVTOOLS" description="Working with development tools" icon='./FrontEnd.svg'/>
-                <SkillCategory title="CREATIVE" description="Expressing creativity in design" icon=''/>
+                <SkillCategory title="BACK END" description="Building robust server-side applications" icon='../BackEnd.svg' />
+                <SkillCategory title="DEVTOOLS" description="Working with development tools" icon='./DevTools.svg'/>
+                <SkillCategory title="CREATIVE" description="Expressing creativity in design" icon='./Creative.svg'/>
             </div>
         </div>
     );
