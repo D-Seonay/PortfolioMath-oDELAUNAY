@@ -26,9 +26,10 @@ const Footer = () => {
                 <div className="flex-col justify-center items-center">
                     <div className="text-center text-[22px] font-bold my-3">Newsletter</div>
                     <div className="text-center text-xl">
-                        <Link href="/newsletter" title="Subscribe to Newsletter">S'abonner</Link>
+                        <Link href="/newsletter" title="Subscribe to Newsletter">S &apos; abonner</Link>
                     </div>
                 </div>
+
 
                 {/* Section des Informations de Copyright */}
                 <div className="flex-col justify-center items-center">
