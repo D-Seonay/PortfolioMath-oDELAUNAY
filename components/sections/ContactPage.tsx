@@ -1,6 +1,6 @@
 const ContactPage = () => {
     return (
-        <div className="contact relative bg-zinc-900">
+        <div className="contact relative bg-zinc-900" id="contact-page">
             {/* ...  Cards  ... */}
             <div className="text-[200px] font-black font-'Poppins'">CONTACT ME</div>
             <div className="p-2.5 bg-neutral-800 rounded-[10px] justify-start items-start gap-2.5 inline-flex">

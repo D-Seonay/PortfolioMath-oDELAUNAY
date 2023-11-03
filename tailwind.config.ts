@@ -65,6 +65,7 @@ export default defineConfig({
         },
         white: {
           DEFAULT: '#FFF',
+          100: 'rgba(163, 179, 188, 0.2)',
           400: '#A3B3BC',
           500: '#A4B8D5',
           800: '#D0DFFF',
@@ -84,6 +85,7 @@ export default defineConfig({
         pink: '#ED5FBD',
         violet: '#F16565',
         orange: '#FF964B',
+        
       },
       backgroundImage: {
         banner: "url('/jsm_resources_banner.svg')",
