@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Footer = () => {
     return (
-        <div className="bg-neutral-800 p-10 text-white ">
+        <div className="w-full bg-neutral-800 p-10 text-white absolute">
             <div className="justify-between flex flex-row">
                 {/* Section des Liens de Navigation */}
                 <div className="flex-col justify-center items-center">
@@ -72,6 +72,9 @@ const Footer = () => {
                         className="hover:text-blue-500" // Classe de survol Tailwind
                     >
                         <svg className="
+                        transition-colors 
+                        duration-200 
+                        ease-in-out
                         fill-white 
                         hover:fill-primary" 
                         width="40" 
@@ -93,6 +96,9 @@ const Footer = () => {
                         className="hover:text-blue-500" // Classe de survol Tailwind
                     >
                         <svg className="
+                        transition-colors 
+                        duration-200 
+                        ease-in-out
                         fill-white 
                         hover:fill-primary" 
                         width="40" 
@@ -112,6 +118,9 @@ const Footer = () => {
                         target="_blank"
                     >
                         <svg className="
+                        transition-colors 
+                        duration-200 
+                        ease-in-out
                         fill-white 
                         hover:fill-primary" 
                         width="40" 
