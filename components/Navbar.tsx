@@ -27,7 +27,6 @@ const Navbar = () => {
                 <div className="py-2.5 rounded-[50px] border-2 border-black justify-center items-center gap-[30px] inline-flex">
                     <Link 
                         href="#contact-page"
-                        scroll={false}
                         className="text-sky-700 text-xl font-extrabold px-4 py-1">CONTACT ME
                     </Link>
                 </div>
