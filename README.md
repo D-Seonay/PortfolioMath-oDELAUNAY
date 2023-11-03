@@ -14,9 +14,6 @@ Pour installer les dépendances nécessaires pour ce projet Next.js, suivez les 
 
 Pour utiliser le projet, exécutez la commande `npm run dev` pour lancer le serveur de développement. Ensuite, ouvrez un navigateur web et naviguez vers `http://localhost:3000`.
 
-## Contribuer
-
-Les contributions sont les bienvenues. Pour contribuer, veuillez créer une pull request avec vos modifications.
 
 ## Licence
 
