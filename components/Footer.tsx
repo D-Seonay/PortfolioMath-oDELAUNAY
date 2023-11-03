@@ -113,8 +113,9 @@ const Footer = () => {
                 {/* Logo Email */}
                 <div className="mx-20">
                     <a
-                        href="mailto:matheodelaunay04@gmail.com"
+                        href="mailto:contact@matheo-delaunay.fr"
                         target="_blank"
+                        title="Contact me by email"
                     >
                         <svg className="
                         transition-colors 
