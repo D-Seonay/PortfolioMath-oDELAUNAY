@@ -4,6 +4,7 @@ const AboutMePage = () => {
         <Element name="about">
             <div>
                 {/* Contenu de la section About Me */}
+
             </div>
         </Element>
     );
