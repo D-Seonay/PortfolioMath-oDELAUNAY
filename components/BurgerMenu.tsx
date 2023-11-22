@@ -1,7 +1,6 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import Navbar from "./Navbar";
 
 const BurgerMenu = () => {
     const [isOpen, setIsOpen] = useState(false);
