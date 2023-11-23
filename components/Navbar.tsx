@@ -1,5 +1,5 @@
 import Link from "next/link";
-import BurgerMenu from "./BurgerMenu"; // Assurez-vous d'importer le composant BurgerMenu depuis le bon chemin
+import BurgerMenu from "./BurgerMenu";
 
 const Navbar = () => {
     return (
