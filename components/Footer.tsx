@@ -32,7 +32,7 @@ const Footer = () => {
 
                 {/* Section des Informations de Copyright */}
                 <div className="flex-col justify-center items-center">
-                    <div className="text-center text-xl font-bold">Copyright &copy; 2023 - D-Seonay.
+                    <div className="text-center text-xl font-bold">Copyright &copy; 2023 - Seonay.
                     </div>
                     <div className="text-center text-xl font-bold">All Rights Reserved - Legal notices
                     </div>

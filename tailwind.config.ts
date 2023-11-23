@@ -32,6 +32,28 @@ export default defineConfig({
         poppins: ['Poppins', 'sans-serif'],
         inter: ['Inter', 'sans-serif'],
       },
+      textStrokeWidth: {
+        DEFAULT: '1px',
+        2: '2px',
+        3: '3px',
+        5: '5px',
+        8: '8px',
+      },
+      textStrokeColor: {
+        DEFAULT: '#000',
+        white: '#FFF',
+        black: '#000',
+      },
+
+      textShadow: {
+        DEFAULT: '0px 4px 4px rgba(0, 0, 0, 0.25)',
+        'custom-1': '10px 10px 1px rgba(0, 0, 0, 1)',
+
+      },
+      boxShadow: {
+        DEFAULT: '0px 4px 4px rgba(0, 0, 0, 0.25)',
+        'custom-1': '10px 0px 0px rgba(0, 0, 0, 0.25)',
+      },
       border: {
         1: '1px solid',
         2: '2px solid',
@@ -82,6 +104,11 @@ export default defineConfig({
           800: '#3385FF',
           purple: '#8C7CFF',
         },
+        transparent: {
+          DEFAULT: 'rgba(255, 255, 255, 0.0)',
+          black: 'rgba(0, 0, 0, 0.0) text-opacity-0',
+          white: 'rgba(255, 255, 255, 0.0)',
+        },
         pink: '#ED5FBD',
         violet: '#F16565',
         orange: '#FF964B',
@@ -106,5 +133,10 @@ export default defineConfig({
       },
     },
   },
-  plugins: [require('tailwindcss-animate')],
+  plugins:[
+    require('tailwindcss-animate'),
+    require('tailwindcss-textshadow'),
+    require('tailwindcss-text-stroke'),
+  ],
+  
 });
