@@ -10,9 +10,9 @@ Le design de ce projet a été réalisé avec l'outil de conception Figma. Vous 
 
 Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur votre machine :
 
-- [Node.js](https://nodejs.org/) (version 14 ou supérieure)
-- [Next.js](https://nextjs.org/) (installé via `npm install next`)
-- [Tailwind CSS](https://tailwindcss.com/) (installé via `npm install tailwindcss`)
+- [Node.js](https://nodejs.org/) (version 14 ou supérieure) ![Node.js Version](https://img.shields.io/badge/Node.js-v14%2B-green)
+- [Next.js](https://nextjs.org/) (installé via `npm install next`) ![Next.js Version](https://img.shields.io/badge/Next.js-v13.5.6-blue)
+- [Tailwind CSS](https://tailwindcss.com/) (installé via `npm install tailwindcss`) ![Tailwind CSS Version](https://img.shields.io/badge/Tailwind%20CSS-v3.3.5-blue)
 
 ## Installation
 
