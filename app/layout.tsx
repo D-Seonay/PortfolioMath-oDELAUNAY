@@ -12,7 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
-      <body className="min-h-screen bg-gray-300 font-poppins">{children}</body>
+      <body className="min-h-screen bg-black-100 font-poppins">{children}</body>
     </html>
   )
 }

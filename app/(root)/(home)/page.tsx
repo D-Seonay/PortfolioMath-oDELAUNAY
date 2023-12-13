@@ -8,10 +8,8 @@ import { Hero } from "@/components/sections/Hero";
 
 const Page = () => {
     return (
-        <div className="relative bg-gray-400">
-            <div className="absolute bg-zinc-900 left-0 top-[798px] w-full h-[1208px]"></div>
-
-            <Hero />
+        <div>
+            <SkillsPage />
         </div>
 
     );
