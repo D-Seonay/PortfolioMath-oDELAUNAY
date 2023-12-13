@@ -6,6 +6,10 @@ Ce projet est un portfolio personnel développé avec Next.js et Tailwind CSS. I
 
 Le design de ce projet a été réalisé avec l'outil de conception Figma. Vous pouvez consulter le design en suivant ce [lien Figma](https://www.figma.com/file/3lcIF4YhdHIJ9JTkOYvJXX/PortfolioV5?type=design&node-id=0%3A1&mode=design&t=bqOMRL55ZGcv8vrc-1).
 
+![Aperçu du design](./public//preview/Cover.png)
+
+
+
 ## Configuration requise
 
 Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur votre machine :
