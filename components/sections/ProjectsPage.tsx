@@ -17,7 +17,7 @@ const ProjectsPage: React.FC = () => {
                     <ProjectNumber number={1} title="Project 1" imageSrc="/projects/Project1.jpg" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod."  githubLink=''/>
                     <ProjectNumber number={2} title="Project 2" imageSrc="/projects/Project2.jpg" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod." githubLink=''/>
                     <ProjectNumber number={3} title="Project 3" imageSrc="/projects/Project3.jpg" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod." githubLink=''/>
-                    <ProjectNumber number={4} title="Project 4" imageSrc="/projects/Project2.jpg" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod. lorem  " githubLink='' />
+                    <ProjectNumber number={4} title="Project 4" imageSrc="/projects/Project4.jpg" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod. lorem  " githubLink='' />
                 </div>
             </div>
         </div>
