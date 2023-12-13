@@ -1,4 +1,4 @@
-# Projet Portfolio Mathéo DElAUNAY
+# Projet Portfolio Mathéo DELAUNAY
 
 Ce projet est un portfolio personnel développé avec Next.js et Tailwind CSS. Il a pour but de présenter mes compétences, mes projets et mon parcours professionnel.
 
