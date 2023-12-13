@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import { ProjectsPage } from "@/components/sections/ProjectsPage";
 
 const Footer = () => {
     return (
