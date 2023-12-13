@@ -64,7 +64,7 @@ const Footer = () => {
             </div>
             <div className="flex justify-center items-center">
                 {/* Logo LinkedIn */}
-                <div className="mx-20">
+                <div className="mx-5 md:mx-20">
                     <Link
                         href="https://www.linkedin.com/in/math%C3%A9o-delaunay/"
                         target="_blank"
@@ -88,7 +88,7 @@ const Footer = () => {
                 </div>
 
                 {/* Logo GitHub */}
-                <div className="mx-20">
+                <div className="mx-5 md:mx-20">
                     <Link
                         href="https://github.com/D-Seonay"
                         target="_blank"
@@ -111,7 +111,7 @@ const Footer = () => {
                 </div>
 
                 {/* Logo Email */}
-                <div className="mx-20">
+                <div className="mx-5 md:mx-20">
                     <a
                         href="mailto:contact@matheo-delaunay.fr"
                         target="_blank"
