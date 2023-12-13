@@ -9,12 +9,16 @@ interface SkillCategoryProps {
 
 const SkillsPage: React.FC = () => {
     return (
-        <div className="w-full h-full p-5 relative flex flex-col items-center">
-            <div className="flex flex-col md:flex-row justify-between">
-                <SkillCategory title="FRONT END" description="Designing intuitive interfaces" icon="../FrontEnd.svg" />
-                <SkillCategory title="BACK END" description="Building robust server-side applications" icon="../BackEnd.svg" />
-                <SkillCategory title="DEVTOOLS" description="Working with development tools" icon="./DevTools.svg" />
-                <SkillCategory title="CREATIVE" description="Expressing creativity in design" icon="./Creative.svg" />
+        
+        <div className="w-full h-full p-5 relative flex flex-col items-baseline ">
+            <div className="text-[6em] md:text-[128px]  w-full font-bold text-transparent text-center md:text-left" style={{ WebkitTextStroke: '1px white' }}>SKILLS</div>
+            <div className='flex flex-col items-center justify-center'>
+                <div className="flex flex-col md:flex-row justify-between items-center">
+                    <SkillCategory title="FRONT END" description="Designing intuitive interfaces" icon="../FrontEnd.svg" />
+                    <SkillCategory title="BACK END" description="Building robust server-side applications" icon="../BackEnd.svg" />
+                    <SkillCategory title="DEVTOOLS" description="Working with development tools" icon="./DevTools.svg" />
+                    <SkillCategory title="CREATIVE" description="Expressing creativity in design" icon="./Creative.svg" />
+                </div>
             </div>
         </div>
     );
