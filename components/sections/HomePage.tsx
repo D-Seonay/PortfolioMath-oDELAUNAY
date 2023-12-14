@@ -11,7 +11,7 @@ const HomePage = () => {
             <div className=" bg-zinc-300 rounded-full border-2 border-blue-900 flex">
             <Image 
                 className="rounded-full shadow border-2 border-blue-900" 
-                src="hero.svg" 
+                src="/fleur.jpg" 
                 alt='#' 
                 width={255.45} 
                 height={255.45}

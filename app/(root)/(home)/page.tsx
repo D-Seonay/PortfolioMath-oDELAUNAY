@@ -11,9 +11,9 @@ const Page = () => {
     return (
         <div className="mx-9">
             <HomePage />
+            <AboutMePage />
             <SkillsPage />
             <ProjectsPage />
-            <ContactPage />
         </div>
 
     );

@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Hero = () => {
   return (
     <div className="hero">
-            <Image src="/../../hero.svg" alt="Picture of me Mathéo DELAUNAY | Seonay" width={900} height={500} />
+            <Image src="/../../hero.svg" alt="Picture of me Mathéo DELAUNAY | Seonay" width={5000} height={1500} />
     </div>
   );
 };
