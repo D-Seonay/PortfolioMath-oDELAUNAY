@@ -1,11 +1,11 @@
-import Image from "next/image";
 import React from "react";
-import { ContactPage } from "@/components/sections/ContactPage";
+import dynamic from "next/dynamic";
 import { SkillsPage } from "@/components/sections/SkillsPage";
 import {AboutMePage} from "@/components/sections/AboutMePage";
 import { HomePage } from "@/components/sections/HomePage";
 import { ProjectsPage } from "@/components/sections/ProjectsPage";
-import { Hero } from "@/components/sections/Hero";
+import ContactForm  from "@/components/sections/ContactPage";
+
 
 const Page = () => {
     return (
@@ -14,7 +14,7 @@ const Page = () => {
             <AboutMePage />
             <SkillsPage />
             <ProjectsPage />
-            <ContactPage />
+            <ContactForm />
         </div>
 
     );
