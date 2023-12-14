@@ -14,6 +14,7 @@ const Page = () => {
             <AboutMePage />
             <SkillsPage />
             <ProjectsPage />
+            <ContactPage />
         </div>
 
     );

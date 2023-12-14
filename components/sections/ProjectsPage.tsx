@@ -12,7 +12,7 @@ interface ProjectProps {
 const ProjectsPage: React.FC = () => {
     return (
         <div className="w-full h-full p-5 relative flex flex-col items-center ">
-            <div className="text-[4em] md:text-[128px] w-full font-bold text-transparent text-center md:text-left" style={{ WebkitTextStroke: '1px white', fontFamily: 'Poppins' }}>PROJECTS</div>
+            <div className="text-[4em] md:text-[128px] w-full font-bold text-transparent text-center md:text-left" style={{ WebkitTextStroke: '1px white', fontFamily: 'Poppins'}}>PROJECTS</div>
             <div className='flex flex-col items-center justify-center'>
                 <div className="flex flex-col md:flex-row justify-between items-center">
                     <ProjectNumber 
