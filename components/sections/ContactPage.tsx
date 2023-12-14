@@ -2,7 +2,8 @@ const ContactPage = () => {
     return (
         <div className="contact relative bg-zinc-900" id="contact-page">
             {/* ...  Cards  ... */}
-            <div className="text-[200px] font-black font-'Poppins'">CONTACT ME</div>
+            <div className="text-[4em] md:text-[128px] w-full font-bold text-transparent text-center md:text-left" style={{ WebkitTextStroke: '1px white', fontFamily: 'Poppins' }}>CONTACT ME</div>
+
             <div className="p-2.5 bg-neutral-800 rounded-[10px] justify-start items-start gap-2.5 inline-flex">
                 <div className="w-[533px] relative bg-sky-700 rounded-[10px] p-3">
                     <div className="text-white text-[35px] font-medium font-'Poppins'">Contact Information</div>

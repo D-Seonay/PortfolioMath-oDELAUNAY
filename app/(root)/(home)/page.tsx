@@ -13,6 +13,7 @@ const Page = () => {
             <HomePage />
             <SkillsPage />
             <ProjectsPage />
+            <ContactPage />
         </div>
 
     );
