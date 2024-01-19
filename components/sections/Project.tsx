@@ -29,7 +29,7 @@ const ProjectNumber: React.FC<ProjectProps> = ({
     offset: ["0 1", "1.33 1"],
   });
   const scaleProgess = useTransform(scrollYProgress, [0, 1], [1, 1.1]);
-  const opacityProgess = useTransform(scrollYProgress, [0, 1], [3, 4]);
+  const opacityProgess = useTransform(scrollYProgress, [0, 1], [3, 6]);
 
   return (
     <motion.div

@@ -1,8 +1,8 @@
 import React from "react";
 import dynamic from "next/dynamic";
-import { SkillsPage } from "@/components/sections/SkillsPage";
 import {AboutMePage} from "@/components/sections/AboutMePage";
 import { HomePage } from "@/components/sections/HomePage";
+import { Skills } from "@/components/sections/Skills";
 import ContactForm  from "@/components/sections/ContactPage";
 import { Projects } from  "@/components/sections/Projects";
 
@@ -12,7 +12,7 @@ const Page = () => {
         <div className="mx-9">
             <HomePage />
             <AboutMePage />
-            <SkillsPage />
+            <Skills />
             <Projects />
             <ContactForm />
             

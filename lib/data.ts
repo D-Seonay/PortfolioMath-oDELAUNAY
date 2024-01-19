@@ -1,15 +1,23 @@
 // data.ts
+import React from "react";
+
+import { IoPhonePortraitOutline } from "react-icons/io5";
+import { HiTerminal } from "react-icons/hi";
+import { RiToolsFill } from "react-icons/ri";
+import { FaPaintRoller } from "react-icons/fa6";
+import { IconType } from "react-icons";
+
 
 export const projectsData = [
-  {
+    {
     number: 1,
     category: 'Scolaire',
     title: 'Photothèque de Chatons',
     imageSrc: '/projects/Project1.jpg',
     description:
-      "Petite photothèque de chatons en Symfony avec une base de donnée développé dans le cadre d'un cours.",
+        "Petite photothèque de chatons en Symfony avec une base de donnée développé dans le cadre d'un cours.",
     githubLink: 'https://github.com/D-Seonay/ChatonsBDD',
-  },
+    },
     {
         number: 2,
         category: 'Personnel',
@@ -39,3 +47,26 @@ export const projectsData = [
     }
     
 ] as const;
+
+export const skillsData = [
+    {
+        title: 'FRONT END',
+        description: 'Designing intuitive interfaces',
+        icon: IoPhonePortraitOutline,
+    },
+    {
+      title: 'BACK END',
+      description: 'Developing server-side applications',
+      icon: HiTerminal,
+    },
+    {
+      title: 'DEVTOOLS',
+      description: 'Working with development tools',
+      icon: RiToolsFill,
+    },
+    {
+      title: 'DECREATIVEVOPS',
+      description: 'Expressing creativity in design',
+      icon: FaPaintRoller,
+    },
+  ] as const;
