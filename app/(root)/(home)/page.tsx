@@ -3,8 +3,8 @@ import dynamic from "next/dynamic";
 import { SkillsPage } from "@/components/sections/SkillsPage";
 import {AboutMePage} from "@/components/sections/AboutMePage";
 import { HomePage } from "@/components/sections/HomePage";
-import { ProjectsPage } from "@/components/sections/ProjectsPage";
 import ContactForm  from "@/components/sections/ContactPage";
+import { Projects } from  "@/components/sections/Projects";
 
 
 const Page = () => {
@@ -13,8 +13,9 @@ const Page = () => {
             <HomePage />
             <AboutMePage />
             <SkillsPage />
-            <ProjectsPage />
+            <Projects />
             <ContactForm />
+            
         </div>
 
     );

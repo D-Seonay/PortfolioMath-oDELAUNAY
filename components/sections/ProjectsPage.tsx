@@ -3,7 +3,6 @@ import React from 'react';
 import { GrGithub } from 'react-icons/gr';
 import { CiCirclePlus } from "react-icons/ci";
 
-
 interface ProjectProps {
     number: number;
     category: string;  // Scolaire, Professionnel, Personnel
