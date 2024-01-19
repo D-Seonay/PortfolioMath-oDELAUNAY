@@ -1,4 +1,8 @@
+import Link from 'next/link';
 import React from 'react';
+import { GrGithub } from 'react-icons/gr';
+import { CiCirclePlus } from "react-icons/ci";
+
 
 interface ProjectProps {
     number: number;
@@ -64,9 +68,27 @@ const ProjectNumber: React.FC<ProjectProps> = ({ number, category, title, imageS
                 <div className="w-[333px] h-6 text-primary text-[18px] font-normal" style={{ fontFamily: 'Poppins' }}>{title.toUpperCase()}</div>
                 <div className="w-[333px] h-[66px] text-gray-400 text-[15px] font-normal" style={{ fontFamily: 'Poppins' }}>{description}</div>
             </div>
-            <div className="w-[333px] h-[66px] text-gray-400 text-[15px] font-normal">
-                <button className="absolute bottom-5 right-5 px-4 py-2 bg-gray-800 hover:bg-primary text-white rounded-md transition duration-300 ease-in-out transform hover:scale-105">Voir Plus</button>
-                <a href={githubLink} target="_blank" rel="noopener noreferrer" className="absolute bottom-5 left-5 px-4 py-2 bg-gray-800 hover:bg-primary text-white rounded-md transition duration-300 ease-in-out transform hover:scale-105">GitHub</a>
+            <div className="w-[333px] h-[66px] text-gray-400 text-[15px] font-normal flex justify-between px-4">
+            <div>
+                    <Link
+                        href={githubLink ?? ""}
+                        target="_blank" 
+                        className='hover:text-primary transition duration-500 ease-in-out'
+                    >
+                            <GrGithub size={40} />
+                            <span className="sr-only">GitHub</span>
+                    </Link>
+                </div>
+                <div>
+                    <Link
+                        href={"" ?? ""}
+                        target="_blank" 
+                        className='hover:text-primary transition duration-500 ease-in-out'
+                    >
+                            <CiCirclePlus size={40} />
+                            <span className="sr-only">Voir Plus</span>
+                    </Link>
+                </div>
             </div>
         </div>
     );
