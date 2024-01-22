@@ -38,7 +38,7 @@ const ProjectNumber: React.FC<ProjectProps> = ({
       scale: scaleProgess,
       opacity: opacityProgess,
     }}
-    className="mb-3 sm:mb-8 l"
+    className="mb-3 sm:mb-8"
   >
       <div className="w-[373px] h-[600px] px-5 py-[19px] rounded-[10px] my-5 md:m-9 border-4 border-neutral-800 flex-col justify-start items-start gap-[21px] inline-flex transition duration-300 ease-in-out transform hover:scale-105 hover:border-secondary">
         <div className="justify-center items-center inline-flex">

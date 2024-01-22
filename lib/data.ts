@@ -1,11 +1,9 @@
 // data.ts
-import React from "react";
-
 import { IoPhonePortraitOutline } from "react-icons/io5";
 import { HiTerminal } from "react-icons/hi";
 import { RiToolsFill } from "react-icons/ri";
 import { FaPaintRoller } from "react-icons/fa6";
-import { IconType } from "react-icons";
+
 
 
 export const projectsData = [
@@ -69,4 +67,5 @@ export const skillsData = [
       description: 'Expressing creativity in design',
       icon: FaPaintRoller,
     },
+    
   ] as const;
