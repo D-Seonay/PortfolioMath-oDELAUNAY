@@ -20,6 +20,7 @@ const SkillCategory: React.FC<SkillCategoryProps> = ({
     target: ref,
     offset: ["0 1", "1.33 1"],
     });
+    const xProgess = useTransform(scrollYProgress, [0, 1], [-200, 0]);
     const scaleProgess = useTransform(scrollYProgress, [0, 1], [1, 1.1]);
     const opacityProgess = useTransform(scrollYProgress, [0, 1], [3, 6]);
 
@@ -27,6 +28,7 @@ const SkillCategory: React.FC<SkillCategoryProps> = ({
         <motion.div
         ref={ref}
         style={{
+            x: xProgess,
             scale: scaleProgess,
             opacity: opacityProgess,
         }}
