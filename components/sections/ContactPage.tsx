@@ -12,7 +12,7 @@ function ContactForm() {
     return (
     <div className="flex flex-col items-center justify-center gap-4">
       <h1 className="text-3xl font-bold">Thanks for your message!</h1>
-      <p className="text-lg">I'll get back to you as soon as possible.</p>
+      <p className="text-lg">I &apos; ll get back to you as soon as possible.</p>
       </div>
     ); 
   }
