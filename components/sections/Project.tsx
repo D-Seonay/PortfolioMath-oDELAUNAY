@@ -3,6 +3,7 @@
 
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { GrGithub } from 'react-icons/gr';
 import { motion, useScroll, useTransform } from "framer-motion";
 
@@ -58,11 +59,7 @@ const ProjectNumber: React.FC<ProjectProps> = ({
           </div>
         </div>
         <div className="w-full h-[300px] rounded-[10px] overflow-hidden">
-          <img
-            className="w-full h-full object-cover object-center"
-            src={imageSrc}
-            alt={title}
-          />
+          <Image src={imageSrc} alt={title} width={373} height={300} />
         </div>
         <div className="text-[20px] font-bold text-primary">{title}</div>
         <div className="text-[15px] text-white">{description}</div>
@@ -72,7 +69,11 @@ const ProjectNumber: React.FC<ProjectProps> = ({
           </div>
           <div className="flex flex-row justify-between items-center">
             <div className="text-[20px] text-white mr-2 transition duration-300 ease-in-out transform hover:scale-105 hover:text-primary"> 
-              <Link href={githubLink ?? ""}>
+              <Link href={githubLink ?? ""}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    aria-label='Github'
+                    >
                 <GrGithub size={30} />
               </Link>
             </div>

@@ -53,19 +53,19 @@ export const skillsData = [
         icon: IoPhonePortraitOutline,
     },
     {
-      title: 'BACK END',
-      description: 'Developing server-side applications',
-      icon: HiTerminal,
+        title: 'BACK END',
+        description: 'Developing server-side applications',
+        icon: HiTerminal,
     },
     {
-      title: 'DEVTOOLS',
-      description: 'Working with development tools',
-      icon: RiToolsFill,
+        title: 'DEVTOOLS',
+        description: 'Working with development tools',
+        icon: RiToolsFill,
     },
     {
-      title: 'DECREATIVEVOPS',
-      description: 'Expressing creativity in design',
-      icon: FaPaintRoller,
+        title: 'CREATIVE',
+        description: 'Expressing creativity in design',
+        icon: FaPaintRoller,
     },
     
-  ] as const;
+] as const;

@@ -74,6 +74,9 @@ const Footer = () => {
                     <Link
                         href="https://www.linkedin.com/in/math%C3%A9o-delaunay/"
                         target="_blank"
+                        rel='noopener noreferrer'
+                        aria-label='LinkedIn'
+                        title="Go to LinkedIn page"
                         className="hover:text-primary transition duration-500 ease-in-out"
                     >
                         <FaLinkedin size={40} />    
@@ -86,6 +89,9 @@ const Footer = () => {
                     <Link
                         href="https://github.com/D-Seonay"
                         target="_blank"
+                        rel='noopener noreferrer'
+                        aria-label='Github'
+                        title="Go to GitHub page"
                         className="hover:text-primary transition duration-500 ease-in-out"
                     >
                             <GrGithub size={40} />
@@ -99,6 +105,8 @@ const Footer = () => {
                         href="mailto:contact@matheo-delaunay.fr"
                         target="_blank"
                         title="Contact me by email"
+                        rel='noopener noreferrer'
+                        aria-label='Email'
                         className="hover:text-primary transition duration-500 ease-in-out"
                     >
                         <MdEmail size={40} />
