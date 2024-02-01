@@ -66,7 +66,7 @@ function ContactForm() {
     >
       <h1 className="text-3xl font-bold text-center text-primary">Contact Me</h1>
       <div className="flex flex-col md:flex-row justify-between">
-        <div className="flex flex-col gap-4 m-3 w-1/2">
+        <div className="flex flex-col gap-4 m-3 md:w-1/2">
         <label htmlFor="firstname" className={`flex flex-col gap-1 text-lg text-primary font-bold ${isFilled.firstname ? 'block' : 'hidden'}`}>
           First Name
         </label>
@@ -86,7 +86,7 @@ function ContactForm() {
         />
       </div>
 
-      <div className="flex flex-col gap-4 m-3 w-1/2">
+      <div className="flex flex-col gap-4 m-3 md:w-1/2">
         <label htmlFor="lastname" className={`flex flex-col gap-1 text-lg text-primary font-bold ${isFilled.lastname ? 'block' : 'hidden'}`}>
           Last Name
         </label>
