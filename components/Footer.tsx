@@ -9,8 +9,8 @@ import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
     return (
-        <div className="w-full flex-row bg-neutral-800 p-10 text-white absolute">
-            <div className="justify-between flex flex-col md:flex-row">
+        <div className="w-full flex-row bg-neutral-800 p-10 text-white absolute items-center ">
+            <div className="justify-around flex flex-col md:flex-row"> 
                 {/* Section des Liens de Navigation */}
                 <div className="flex-col justify-center items-center m-4 p-4 md:m-0 mb:p-0">
                     <div className="text-center text-[22px] font-bold my-3">Pages</div>
@@ -27,13 +27,14 @@ const Footer = () => {
                         <Link href="/contact" title="Go to Contact page">Contact</Link>
                     </div>
                 </div>
-                {/* Section d'Abonnement à la Newsletter */}
+                {/* Section d'Abonnement à la Newsletter
                 <div className="flex-col justify-center items-center my-2 m-4 p-4 md:m-0 md:0">
                     <div className="text-center text-[22px] font-bold my-3">Newsletter</div>
                     <div className="text-center text-xl">
                         <Link href="/newsletter" title="Subscribe to Newsletter">S &apos; abonner</Link>
                     </div>
                 </div>
+                 */}
 
 
                 {/* Section des Informations de Copyright */}
@@ -57,7 +58,7 @@ const Footer = () => {
                         <Link href="/project3" title="Go to Project 3 page">Project 3</Link>
                     </div>
                 </div>
-                {/* Section des Liens Légaux */}
+                {/* Section des Liens Légaux 
                 <div className="flex-col justify-center items-center my-2 m-4 p-4 md:m-0 md:0">
                     <div className="text-center text-[22px] font-bold my-3">Mentions Légales</div>
                     <div className="text-center text-xl my-2">
@@ -67,6 +68,7 @@ const Footer = () => {
                         <Link href="/faq" title="Go to FAQ page">FAQ</Link>
                     </div>
                 </div>
+                 */}
             </div>
             <div className="flex justify-center items-center">
                 {/* Logo LinkedIn */}
