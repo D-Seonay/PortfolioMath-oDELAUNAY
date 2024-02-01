@@ -10,7 +10,7 @@ const Skills: React.FC = () => {
         <div className="w-full h-full p-5 relative flex flex-col items-center ">
             <div className="text-[6em] md:text-[128px]  w-full font-bold text-transparent text-center md:text-left" style={{ WebkitTextStroke: '1px white' }}>SKILLS</div>
             <div className='flex flex-col items-center justify-center'>
-                <div className="flex flex-col md:flex-row justify-between items-center">
+                <div className="flex flex-col md:flex-row justify-between items-center w-full">
                     {skillsData.map((skill, index) => (
                         <SkillCategory key={index} {...skill} />
                     ))}

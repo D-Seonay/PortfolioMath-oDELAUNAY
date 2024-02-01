@@ -32,7 +32,7 @@ const SkillCategory: React.FC<SkillCategoryProps> = ({
             scale: scaleProgess,
             opacity: opacityProgess,
         }}
-        className="mb-3 sm:mb-8"
+        className="mb-3 sm:mb-8 w-full"
         >
             <div className=":w-full mb:w-1/4 h-96 p-5 bg-black-100 rounded-2xl border-4 border-neutral-800 flex flex-col items-start space-y-5 hover:border-secondary my-5 md:m-9 transition duration-300 ease-in-out transform hover:scale-105">
                 <div className="text-6xl text-white"><IconComponent /></div>
