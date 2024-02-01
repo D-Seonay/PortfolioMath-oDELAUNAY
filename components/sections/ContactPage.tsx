@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import { FaPaperPlane } from "react-icons/fa";
 import { motion, useViewportScroll, useTransform } from "framer-motion";
+import toast, { Toaster } from 'react-hot-toast';
+
 
 function ContactForm() {
   const [state, handleSubmit] = useForm("meqyegyw");
@@ -14,12 +16,32 @@ function ContactForm() {
     message: false,
   });
 
+  <Toaster
+  position="top-center"
+  reverseOrder={false}
+  gutter={8}
+  containerClassName="bg-neutral-800 text-lg"
+  containerStyle={{}}
+  toastOptions={{
+    // Define default options
+    className: '',
+    duration: 5000,
+    style: {
+      background: '#363636',
+      color: '#fff',
+    }
+  }}
+/>
+
+  const notify = () => toast.success("Thanks for contacting me!");
+
+
   const yProgress = useTransform(scrollYProgress, [0, 1], ['45vh', '0vh']);
 
   if (state.succeeded) {
-    return <p className="text-center text-primary text-xl font-bold">Thanks for contacting me!</p>;
-    
+    notify();
   }
+
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -30,8 +52,12 @@ function ContactForm() {
   };
 
   return (
+    
     <div className="w-full h-full p-5 relative flex flex-col items-center">
+      <Toaster />
       <div className="text-[6em] md:text-[128px]  w-full font-bold text-transparent text-center md:text-left" style={{ WebkitTextStroke: '1px white' }}>CONTACT</div>
+      
+
     <motion.form
     
       className="mb-3 sm:mb-8 grid-cols-1 md:grid-cols-2 mx-5 md:mx-9  w-full md:w-2/3 h-auto p-3 border-4 border-neutral-800 rounded-[10px] "
