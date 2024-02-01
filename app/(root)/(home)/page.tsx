@@ -1,5 +1,4 @@
 import React from "react";
-import dynamic from "next/dynamic";
 import {AboutMePage} from "@/components/sections/AboutMePage";
 import { HomePage } from "@/components/sections/HomePage";
 import { Skills } from "@/components/sections/Skills";
