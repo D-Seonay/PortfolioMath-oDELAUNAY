@@ -56,22 +56,29 @@ const AboutMePage = () => {
                         <motion.button
                             className={`my-anchor-element-cv group flex items-center justify-center gap-2 h-[3rem] w-[8rem] bg-primary text-white rounded-full outline-none transition-all focus:scale-110 hover:scale-110 hover:bg-secondary active:scale-105 dark:bg-white dark:bg-opacity-10 mx-3`}
                             data-tip="CV"
+                            data-for="cv"
+                            aria-label="CV"
                         >
                             <a href="/docs/cv.pdf"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 title="Go to CV page"
+
                             >
                                     <SiGoogledocs className="text-s opacity-100 transition-all group-hover:translate-x-1 group-hover:-translate-y-1" />
                             </a>
                         </motion.button>
                         <motion.button
-                            className={`my-anchor-element-email group flex items-center justify-center gap-2 h-[3rem] w-[8rem] bg-primary text-white rounded-full outline-none transition-all focus:scale-110 hover:scale-110 hover:bg-secondary active:scale-105 dark:bg-white dark:bg-opacity-10 mx-3`}>
+                            className={`my-anchor-element-email group flex items-center justify-center gap-2 h-[3rem] w-[8rem] bg-primary text-white rounded-full outline-none transition-all focus:scale-110 hover:scale-110 hover:bg-secondary active:scale-105 dark:bg-white dark:bg-opacity-10 mx-3`}
+                            aria-label="Email"
+                            >
+                                
                                 <a href="mailto:matheodelaunay04@gmail.com"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     about="Email"
                                     title="Go to Email page"
+
                                 >
                                     <MdEmail className="text-s opacity-100 transition-all group-hover:translate-x-1 group-hover:-translate-y-1" />{" "}
                                 </a> 
@@ -79,7 +86,9 @@ const AboutMePage = () => {
                         
 
                         <motion.button
-                            className={`my-anchor-element-link group flex items-center justify-center gap-2 h-[3rem] w-[8rem] bg-primary text-white rounded-full outline-none transition-all focus:scale-110 hover:scale-110 hover:bg-secondary active:scale-105 dark:bg-white dark:bg-opacity-10 mx-3`}>
+                            className={`my-anchor-element-link group flex items-center justify-center gap-2 h-[3rem] w-[8rem] bg-primary text-white rounded-full outline-none transition-all focus:scale-110 hover:scale-110 hover:bg-secondary active:scale-105 dark:bg-white dark:bg-opacity-10 mx-3`}
+                            aria-label="LinkedIn"
+                            >
                                 <a href="https://www.linkedin.com/in/math%C3%A9o-delaunay/"
                                     target="_blank"
                                     rel="noopener noreferrer"
@@ -91,7 +100,9 @@ const AboutMePage = () => {
                         </motion.button>
 
                         <motion.button
-                            className={`my-anchor-element-github group flex items-center justify-center gap-2 h-[3rem] w-[8rem] bg-primary text-white rounded-full outline-none transition-all focus:scale-110 hover:scale-110 hover:bg-secondary active:scale-105 dark:bg-white dark:bg-opacity-10 mx-3`}>
+                            className={`my-anchor-element-github group flex items-center justify-center gap-2 h-[3rem] w-[8rem] bg-primary text-white rounded-full outline-none transition-all focus:scale-110 hover:scale-110 hover:bg-secondary active:scale-105 dark:bg-white dark:bg-opacity-10 mx-3`}
+                            aria-label="Github"
+                            >
                                 <a href="https://github.com/D-Seonay"
                                     target="_blank"
                                     rel="noopener noreferrer"
