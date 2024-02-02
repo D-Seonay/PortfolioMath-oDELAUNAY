@@ -14,9 +14,7 @@ const Page = () => {
             <Skills />
             <Projects />
             <ContactForm />
-            
         </div>
-
     );
 };
 
