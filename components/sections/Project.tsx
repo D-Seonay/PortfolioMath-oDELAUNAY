@@ -43,7 +43,7 @@ const ProjectNumber: React.FC<ProjectProps> = ({
     }}
     className="mb-3 sm:mb-8"
   >
-      <div className="w-[373px] h-[600px] p-1 rounded-xl my-5 md:m-9 flex-col justify-start items-start gap-[21px] inline-flex transition duration-300 ease-in-out transform hover:scale-105 bg-gradient-to-tr from-neutral-800 to-neutral-500  hover:from-secondary hover:to-primary hover:shadow-2xl">
+      <div className="w-[373px] h-[600px] p-1 rounded-xl my-9 md:m-9 flex-col justify-start items-start gap-[21px] inline-flex transition duration-300 ease-in-out transform hover:scale-105 bg-gradient-to-tr from-neutral-800 to-neutral-500  hover:from-secondary hover:to-primary hover:shadow-2xl">
         <div className="flex flex-col justify-evenly align-start bg-black-100 p-3 rounded-lg w-full h-full">
           <div className="justify-center items-center inline-flex ">
             <div
